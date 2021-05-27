@@ -60,6 +60,7 @@ body {
   background: #3b3b3b;
   margin: 5px;
   padding: 10px 20px;
+  cursor: grab;
 }
 
 .offer.reminder {
@@ -85,6 +86,13 @@ body {
 }
 
 .offer p {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+}
+
+.offer a {
   display: flex;
   align-items: center;
   justify-content: space-between;
